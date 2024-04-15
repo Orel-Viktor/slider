@@ -1,0 +1,21 @@
+.swiper {
+  min-width: 0;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    min-height: 400px;
+  }
+  &__item-desription {
+    text-align: center;
+    max-width: 845px;
+    width: 100%;
+    font-size: 24px;
+  }
+
+  &__item-name {
+    font-size: 32px;
+  }
+}
