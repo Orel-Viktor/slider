@@ -1,6 +1,12 @@
 @import "./styles/swiper.scss";
 @import url("./styles/fonts.css");
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

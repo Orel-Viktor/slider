@@ -2,7 +2,12 @@
   font-family: Phonk;
   src: url(../public/fonts/PhonkSans-Light.otf);
 }
+@font-face {
+  font-family: Fixel;
+  src: url(../public/fonts/FixelDisplay-ExtraLight.woff2);
+}
 
 :root {
   --phonk-font: Phonk, sans-serif;
+  --fixel-font: Fixel, sans-serif;
 }
