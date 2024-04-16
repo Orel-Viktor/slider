@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function showSlide(index) {
     slides.forEach((slide, i) => {
-      console.log(slide);
       const description = slide.querySelector(".swiper__item-description");
       const profileImg = slide
         .querySelector(".swiper__item-image")
