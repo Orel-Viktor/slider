@@ -1,7 +1,7 @@
 .swiper {
   min-height: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   &__wrapper {
@@ -60,5 +60,22 @@
     transform: scale(1.1);
     top: -20px;
     transition: transform 0.5s ease;
+  }
+  &__next,
+  &__prev {
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+  }
+  &__next::before {
+    transform: translate(-100%);
+    content: url(../public/images/Helpers/navToSliderNext.png);
+    position: absolute;
+  }
+  &__prev::before {
+    content: url(../public/images/Helpers/navToSLiderPrev.png);
+    position: absolute;
   }
 }
